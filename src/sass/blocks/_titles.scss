@@ -1,0 +1,41 @@
+.title {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 56px;
+    font-weight: 300;
+    line-height: 84px;
+    color: $neutral-second;
+    text-align: center;
+}
+
+.descr {
+    margin-top: 16px;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.subheader {
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    margin-top: 24px;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.fw600 {
+    color:$neutral-first;
+    font-weight: 600;
+}
+
+.fw300 {
+    font-weight: 300;
+    color: $neutral-second;
+}
+
+.span {
+    color: $neutral-first;
+    font-weight: 600;
+}

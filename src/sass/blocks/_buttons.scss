@@ -1,0 +1,29 @@
+.button {
+    position: relative;
+    margin-top: 40px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    padding: 8px 48px 6px 16px;
+    gap: 8px;
+    width: 163px;
+    height: 40px;
+    border: 1px solid rgba(227, 228, 230, 0.55);
+    background: transparent;
+    border-radius: 100px;
+    color: $neutral-first;
+    text-transform: uppercase;
+    &:after {
+        content: ' ';
+        position: absolute;
+        top: 50%;
+        left: auto;
+        bottom: auto;
+        right: 10px;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        background: url('../../icons/chevron-right.svg') no-repeat ; 
+        width: 24px;
+        height: 24px;
+    }
+}

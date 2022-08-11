@@ -1,0 +1,20 @@
+.promo {
+    position: relative;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    background-color: $background;
+    &__title {
+        padding: 0 105px 0 150px;
+    }
+    &__arrow {
+        position: absolute;
+        margin-bottom: 42px;
+        bottom: 0;
+        img {
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+        }
+    }
+}
