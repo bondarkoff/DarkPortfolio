@@ -1,5 +1,5 @@
 .footer {
-    padding: 180px 0 40px 0;
+    padding-bottom: 40px;
     background: $background;
     text-align: center;
     &__subtitle {
@@ -25,7 +25,7 @@
         }
         &:hover {
             svg path {
-                fill-opacity: 100%;
+                fill-opacity:inherit;
             }
         }
     }

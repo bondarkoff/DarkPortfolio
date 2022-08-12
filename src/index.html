@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/style.min.css">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
     <div class="promo" id="home">
@@ -17,9 +15,9 @@
                     <div class="menu__logo col-md-9"><a href="#home">bondarkoff.</a></div>
                     <nav class="col-md-3">
                         <ul class="menu__list">
-                            <li class="menu__list-item"><a href="#" class="menu__list-link">HOME</a></li>
-                            <li class="menu__list-item"><a href="#" class="menu__list-link">WORK</a></li>
-                            <li class="menu__list-item"><a href="#" class="menu__list-link">ABOUT</a></li>
+                            <li class="menu__list-item"><a href="#home" class="menu__list-link">HOME</a></li>
+                            <li class="menu__list-item"><a href="#works" class="menu__list-link">WORK</a></li>
+                            <li class="menu__list-item"><a href="#about" class="menu__list-link">ABOUT</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -27,6 +25,18 @@
         </header>
         
         <div class="promo__content">
+            <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
             <div class="container text-center">
                 <h1 class="title promo__title">I’m a <span class="span">Frontend developer</span> and just a <span class="span">good guy.</span></h1>
                 <a class="promo__arrow" href="#works">
@@ -41,56 +51,57 @@
 
     <div class="works" id="works">
         <div class="container">
-            <div class="fw300 works__title">Selected <span class="span">Works</span></div>
+            <div class="fw300 works__title element-animation">Selected <span class="span">Works</span></div>
             <div class="row">
-            <div class="works__item">
-                <img class="works__photo col-md-6" src="img/item_1.png" alt="Work_1">
-                <div class="works__text col-md-6 align-self-end">
-                    <div class="subheader fw600 works__item-subheader">Real estate Template</div>
-                    <div class="descr fw300 works__item-descr">Lorem ipsum dolor sit amet, consectetur <span class="span">adipiscing elit. Ultrices lorem non feugiat egestas amet.</span></div>
-                    <div class="subtitle fw300 works__item-subtitle">Website Design</div>
-                    <button class="button works__item-btn">View work</button>
+                <div class="works__item element-animation">
+                    <img class="works__photo col-md-6" src="img/item_1.png" alt="Work_1">
+                    <div class="works__text col-md-6 align-self-end">
+                        <div class="subheader fw600 works__item-subheader">Real estate Template</div>
+                        <div class="descr fw300 works__item-descr">Lorem ipsum dolor sit amet, consectetur <span class="span">adipiscing elit. Ultrices lorem non feugiat egestas amet.</span></div>
+                        <div class="subtitle fw300 works__item-subtitle">Website Design</div>
+                        <button class="button works__item-btn">View work<img class="button-arrow" src="icons/arrow-right.svg" alt="Arrow"></button>
+                    </div>
+                </div>
+                <div class="works__item element-animation">
+                    <div class="works__text col-md-6 align-self-end">
+                        <div class="subheader fw600 works__item-subheader">Plant identification app</div>
+                        <div class="descr fw300 works__item-descr">Lorem ipsum dolor sit amet, consectetur <span class="span">adipiscing elit. Ultrices lorem non feugiat egestas amet.</span></div>
+                        <div class="subtitle fw300 works__item-subtitle">Mobile App</div>
+                        <button class="button works__item-btn">View work<img class="button-arrow" src="icons/arrow-right.svg" alt="Arrow"></button>
+                    </div>
+                    <img class="works__photo col-md-6" src="img/item_2.png" alt="Work_2">
+                </div>
+                <div class="works__item element-animation">
+                    <img class="works__photo col-md-6" src="img/item_3.png" alt="Work_3">
+                    <div class="works__text col-md-6 align-self-end">
+                        <div class="subheader fw600 works__item-subheader">Smart Home App</div>
+                        <div class="descr fw300 works__item-descr">Lorem ipsum dolor sit amet, consectetur <span class="span">adipiscing elit. Ultrices lorem non feugiat egestas amet.</span></div>
+                        <div class="subtitle fw300 works__item-subtitle">Mobile App</div>
+                        <button class="button works__item-btn">View work<img class="button-arrow" src="icons/arrow-right.svg" alt="Arrow"></button>
+                    </div>
+                </div>
+                <div class="works__item element-animation">
+                    <div class="works__text col-md-6 align-self-end">
+                        <div class="subheader fw600 works__item-subheader">Logo Animation</div>
+                        <div class="descr fw300 works__item-descr">Lorem ipsum dolor sit amet, consectetur <span class="span">adipiscing elit. Ultrices lorem non feugiat egestas amet.</span></div>
+                        <div class="subtitle fw300 works__item-subtitle">Animation</div>
+                        <button class="button works__item-btn">View work<img class="button-arrow" src="icons/arrow-right.svg" alt="Arrow"></button>   
+                    </div>
+                    <img class="works__photo col-md-6" src="img/item_4.png" alt="Work_4">
                 </div>
             </div>
-            <div class="works__item">
-                <div class="works__text col-md-6 align-self-end">
-                    <div class="subheader fw600 works__item-subheader">Plant identification app</div>
-                    <div class="descr fw300 works__item-descr">Lorem ipsum dolor sit amet, consectetur <span class="span">adipiscing elit. Ultrices lorem non feugiat egestas amet.</span></div>
-                    <div class="subtitle fw300 works__item-subtitle">Mobile App</div>
-                    <button class="button works__item-btn">View work</button>
-                </div>
-                <img class="works__photo col-md-6" src="img/item_2.png" alt="Work_2">
-            </div>
-            <div class="works__item">
-                <img class="works__photo col-md-6" src="img/item_3.png" alt="Work_3">
-                <div class="works__text col-md-6 align-self-end">
-                    <div class="subheader fw600 works__item-subheader">Smart Home App</div>
-                    <div class="descr fw300 works__item-descr">Lorem ipsum dolor sit amet, consectetur <span class="span">adipiscing elit. Ultrices lorem non feugiat egestas amet.</span></div>
-                    <div class="subtitle fw300 works__item-subtitle">Mobile App</div>
-                    <button class="button works__item-btn">View work</button>
-                </div>
-            </div>
-            <div class="works__item">
-                <div class="works__text col-md-6 align-self-end">
-                    <div class="subheader fw600 works__item-subheader">Logo Animation</div>
-                    <div class="descr fw300 works__item-descr">Lorem ipsum dolor sit amet, consectetur <span class="span">adipiscing elit. Ultrices lorem non feugiat egestas amet.</span></div>
-                    <div class="subtitle fw300 works__item-subtitle">Animation</div>
-                    <button class="button works__item-btn">View work</button>
-                </div>
-                <img class="works__photo col-md-6" src="img/item_4.png" alt="Work_4">
-            </div></div>
         </div>
     </div>
 
-    <div class="about">
+    <div class="about" id="about">
         <div class="container">
             <div class="row">
-                <div class="about__wrapper col-12">
+                <div class="about__wrapper col-12 element-animation">
                     <div class="about__text col-6">
                         <div class="fw600 about__text-title">A bit about me</div>
                         <div class="descr fw300 about__text-descr">I am a UI/UX designer who is passionate about creating <span class="span">beautiful and joyful digital experiences. Besides design, I love music, games and travelling. </span></div>
                     </div>
-                    <div class="col-3 about__photo-first"><img src="img/photo_1.png" alt="Photo_1"></div>
+                    <div class="col-3 about__photo-first element-animation"><img src="img/photo_1.png" alt="Photo_1"></div>
                     <div class="col">
                         <div class="col-3 about__photo-second"><img src="img/photo_2.png" alt="Photo_2"></div>
                         <div class="col-3 about__photo-third"><img src="img/photo_3.png" alt="Photo_3"></div>
@@ -102,7 +113,7 @@
 
     <footer class="footer">
         <div class="container">
-            <div class="row row-cols-1">
+            <div class="row row-cols-1 element-animation">
                 <div class="footer__wrapper">
                     <div class="footer__content col-12">
                         <div class="fw300 title footer__title">Get <span class="span">in Touch.</span></div>
@@ -141,5 +152,6 @@
         </div>
     </footer>
 
+    <script src="js/script.js"></script>
 </body>
 </html>
