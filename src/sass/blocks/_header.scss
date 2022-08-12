@@ -24,13 +24,9 @@
             font-weight: 600;
             text-decoration: none;
             color: $neutral-first;
-            transition: linear .4s;
+            transition: linear .2s;
             &:hover {
-                background: linear-gradient(99.05deg, #BC3CD8 0.07%, #C54B8C 106.32%);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-                background-clip: text;
-                text-decoration: none;
+                color: $main-color;
             }
         }
     }
@@ -42,12 +38,9 @@
         a {
             text-decoration: none;
             color: $neutral-first;
+            transition: linear .2s;
             &:hover {
-                background: linear-gradient(99.05deg, #BC3CD8 0.07%, #C54B8C 106.32%);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-                background-clip: text;
-                text-decoration: none;
+                color: $main-color;
             }
         }
     }
