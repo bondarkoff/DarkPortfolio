@@ -5,9 +5,9 @@
         margin-top: 60px;
         padding: 0 10px 60px 10px;
         display: grid;
-        grid-template: repeat(2,minmax(270px,auto))/repeat(4,300px);
+        grid-template: repeat(2,minmax(270px,auto))/repeat(4,270px);
         grid-auto-rows: minmax(270px,auto);
-        gap: 25px;
+        gap: 13px;
     }
     &__item {
         border: 1px solid $neutral-first;

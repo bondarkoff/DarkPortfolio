@@ -2,21 +2,35 @@
     padding: 100px 0 220px 0;
     background: $background;
     &__wrapper {
+        gap: 32px;
         display: flex;
         align-items: center;
     }
     &__text {
-        padding-right: 34px;
         &-title {
             text-transform: uppercase;
-            font-size: 24px;
+            font-size: 23px;
             line-height: 36px;
         }
     }
     &__photo {
+        margin-top: 32px;
         border-radius: 16px;
         &-third {
             margin-top: 32px;
+        }
+        &-first {
+            img {
+                max-height: 405px;
+            }
+        }
+        &-first.visible {
+            display: none;
+        }
+        &-second, &-third {
+            img {
+                max-height: 375px;
+            }
         }
     }
 }

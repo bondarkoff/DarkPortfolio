@@ -1,19 +1,19 @@
 .header {
     background: #27282D;
-    z-index: 5;
     padding-top: 24px;
     height: 90px;
 }
 
 .menu {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-	justify-content: space-between;
     &__list {
         display: flex;
         justify-content: space-between;
         text-align: center;
         &-item {
+            margin-right: 40px;
             list-style-type: none;
         }
         &-link {
