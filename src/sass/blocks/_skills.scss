@@ -1,0 +1,81 @@
+.skills {
+    padding: 120px 0;
+    background: $background;
+    &__items {
+        margin-top: 60px;
+        padding: 0 10px 60px 10px;
+        display: grid;
+        grid-template: repeat(2,minmax(270px,auto))/repeat(4,300px);
+        grid-auto-rows: minmax(270px,auto);
+        gap: 25px;
+    }
+    &__item {
+        border: 1px solid $neutral-first;
+        padding: 30px 30px 25px 30px;
+        &-img {
+            display: flex;
+            align-items: center;
+            min-height: 65px;
+        }
+        &-title {
+            margin-top: 20px;
+            margin-bottom: 0;
+        }
+        &-subtitle {
+            margin-top: 15px;
+            margin-bottom: 0;
+            font-size: 16px;
+            line-height: 22px;
+        }
+    }
+    &__ratings {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between; 
+        flex-wrap: wrap;
+        &-item {
+            margin-top: 25px;
+        }
+        &-text {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &-header {
+            padding-left: 10px;
+            text-transform: uppercase;
+            font-size: 40px;
+            line-height: 35px;
+        }
+        &-subheader {
+            padding-left: 10px;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+        &-title {
+            text-transform: uppercase;
+            color: $neutral-first;
+            font-size: 18px;
+            line-height: 26px;
+        }
+        &-counter {
+            font-size: 16px;
+            line-height: 24px;
+        }
+        &-line {
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            width: 350px;
+            height: 14px;
+            background-color: $neutral-second;
+            border-radius: 4px;
+            span {
+                display: block;
+                height: 100%;
+                background-color: $main-color;
+                border-radius: 4px;
+            }
+        }
+    }
+}

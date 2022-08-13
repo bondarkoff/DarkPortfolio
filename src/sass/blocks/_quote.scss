@@ -1,0 +1,12 @@
+.quote {
+    padding: 100px 0;
+    background: $background;
+    &__title {
+        font-style: italic;
+        font-size: 60px;
+    }
+    &__author {
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+}
