@@ -386,7 +386,14 @@
     .about {
         &__photo {
             &-first.second {
-                left: 45%;
+                display: none;
+            }
+        }
+        &__text {
+            &-btn {
+                width: 190px;
+                height: 44px;
+                font-size: 17px;
             }
         }
     }
@@ -427,7 +434,7 @@
     .about {
         &__photo {
             &-first.second {
-                left: 40%;
+                display: none;
             }
         }
     }
@@ -445,6 +452,56 @@
 }
 
 @media (max-width: 300px) {
+    .container {
+        max-width: 281px;
+        padding: 0 10px;
+    }
+    .skills {
+        &__items {
+            grid-template: repeat(2,minmax(270px,auto))/repeat(1,245px);
+        }
+        &__ratings {
+            &-line {
+                width: 260px;
+            }
+            &-title {
+                font-size: 17px;
+            }
+        }
+    }
+    .about {
+        &__photo {
+            &-first.second {
+                display: none;
+            }
+        }
+    }
+    .button {
+        margin-top: 15px;
+        padding: 2px 7px 2px 7px;
+        width: 142px;
+        height: 38px;
+        font-size: 16px;
+    }
+    .works {
+        &__buttons {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+    .footer {
+        &__link {
+            margin-right: 15px;
+        }
+    }
+    .sidemenu {
+        &__block {
+            width: 285px;
+        }
+    }
+}
+
+@media (max-width: 280px) {
     .container {
         width: 100%;
         padding: 0 10px;
