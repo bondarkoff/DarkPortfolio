@@ -162,7 +162,10 @@
             }
         }
         &__text {
+            flex-direction: column;
+            display: flex;
             text-align: center;
+            align-items: center;
         }
         &__buttons {
             justify-content: space-between;
@@ -437,6 +440,13 @@
                 display: none;
             }
         }
+        &__text {
+            &-btn {
+                width: 190px;
+                height: 44px;
+                font-size: 16px;
+            }
+        }
     }
     .footer {
         &__title {
@@ -470,18 +480,20 @@
         }
     }
     .about {
-        &__photo {
-            &-first.second {
-                display: none;
+        &__text {
+            &-btn {
+                width: 190px;
+                height: 44px;
+                font-size: 15px;
             }
         }
     }
     .button {
-        margin-top: 15px;
-        padding: 2px 7px 2px 7px;
-        width: 142px;
-        height: 38px;
-        font-size: 16px;
+        margin-top: 20px;
+        padding: 2px 15px 2px 15px;
+        width: 176px;
+        height: 50px;
+        font-size: 23px;
     }
     .works {
         &__buttons {
