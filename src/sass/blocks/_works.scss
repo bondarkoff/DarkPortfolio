@@ -15,6 +15,14 @@
         &-btn {
             margin-right: 20px;
         }
+        &-link {
+            display: flex;
+            text-decoration: none;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+            color: #e3e4e6;
+        }
     }
     &__text {
         margin-left: 30px;

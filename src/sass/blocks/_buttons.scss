@@ -3,9 +3,6 @@
     display: flex;
     align-items: center;
     margin-top: 40px;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
     padding: 2px 15px 2px 15px;
     width: 163px;
     height: 40px;
@@ -23,5 +20,8 @@
     &:focus {
         outline: none;
     }
+    // &-arrow {
+    //     margin-left: 15px;
+    // }
 }
 
