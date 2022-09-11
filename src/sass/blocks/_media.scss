@@ -270,15 +270,6 @@
         &__photos {
             display: none;
         }
-        &__photo {
-            &-first.second {
-                display: flex;
-                position: absolute;
-                opacity: 40%;
-                z-index: 1;
-                left: 50%;
-            }
-        }
         &__text {
             z-index: 5;
             &-descr {
@@ -490,10 +481,10 @@
     }
     .button {
         margin-top: 20px;
-        padding: 2px 15px 2px 15px;
-        width: 176px;
-        height: 50px;
-        font-size: 23px;
+        padding: 3px 14px 2px 13px;
+        width: 168px;
+        height: 46px;
+        font-size: 15px;
     }
     .works {
         &__buttons {
