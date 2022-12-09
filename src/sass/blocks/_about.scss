@@ -26,8 +26,8 @@
         }
         &-first {
             img {
-                max-height: 405px;
-                max-width: 405px;
+                height: 405px;
+                width: 280px;
                 object-fit: cover;
             }
         }
@@ -36,8 +36,8 @@
         }
         &-second, &-third {
             img {
-                max-width: 375px;
-                max-height: 375px;
+                width: 280px;
+                height: 375px;
                 object-fit: cover;
             }
         }

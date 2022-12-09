@@ -36,15 +36,15 @@
         &__photo {
             &-first {
                 img {
-                    max-height: 395px;
-                    max-width: 395px;
+                    height: 405px;
+                    width: 280px;
                     object-fit: cover;
                 }
             }
             &-second, &-third {
                 img {
-                    max-height: 365px;
-                    max-width: 365px;
+                    height: 375px;
+                    width: 280px;
                     object-fit: cover;
                 }
             }
@@ -111,15 +111,15 @@
         &__photo {
             &-first {
                 img {
-                    max-height: 260px;
-                    max-width: 260px;
+                    height: 260px;
+                    width: 180px;
                     object-fit: cover;
                 }
             }
             &-second, &-third {
                 img {
-                    max-height: 240px;
-                    max-width: 240px;
+                    height: 240px;
+                    width: 180px;
                     object-fit: cover;
                 }
             }
@@ -219,15 +219,15 @@
             }
             &-first {
                 img {
-                    max-height: 250px;
-                    max-width: 250px;
+                    height: 250px;
+                    width: 170px;
                     object-fit: cover;
                 }
             }
             &-second, &-third {
                 img {
-                    max-height: 231px;
-                    max-width: 231px;
+                    height: 231px;
+                    width: 170px;
                     object-fit: cover;
                 }
             }
