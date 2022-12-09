@@ -37,11 +37,15 @@
             &-first {
                 img {
                     max-height: 395px;
+                    max-width: 395px;
+                    object-fit: cover;
                 }
             }
             &-second, &-third {
                 img {
                     max-height: 365px;
+                    max-width: 365px;
+                    object-fit: cover;
                 }
             }
             &-third {
@@ -108,11 +112,15 @@
             &-first {
                 img {
                     max-height: 260px;
+                    max-width: 260px;
+                    object-fit: cover;
                 }
             }
             &-second, &-third {
                 img {
                     max-height: 240px;
+                    max-width: 240px;
+                    object-fit: cover;
                 }
             }
             &-third {
@@ -212,11 +220,15 @@
             &-first {
                 img {
                     max-height: 250px;
+                    max-width: 250px;
+                    object-fit: cover;
                 }
             }
             &-second, &-third {
                 img {
                     max-height: 231px;
+                    max-width: 231px;
+                    object-fit: cover;
                 }
             }
         }

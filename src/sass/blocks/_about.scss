@@ -27,6 +27,8 @@
         &-first {
             img {
                 max-height: 405px;
+                max-width: 405px;
+                object-fit: cover;
             }
         }
         &-first.visible {
@@ -34,7 +36,9 @@
         }
         &-second, &-third {
             img {
+                max-width: 375px;
                 max-height: 375px;
+                object-fit: cover;
             }
         }
     }
