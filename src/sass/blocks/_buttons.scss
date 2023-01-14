@@ -12,6 +12,7 @@
     color: $neutral-first;
     text-transform: uppercase;
     transition: all linear .3s;
+    cursor: pointer;
     &:hover {
         background: $main-color;
         border: 1px solid #E3E4E6;
