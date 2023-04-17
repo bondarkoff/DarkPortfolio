@@ -7,6 +7,13 @@
         width: 100%;
         font-size: 40px;
     }
+    &__subtitle {
+        font-size: 24px;
+        width: 100%;
+        a {
+            color: rgba(227, 228, 230, 0.55);
+        }
+    }
     &__item {
         padding-top: 20px;
         padding-bottom: 120px;
@@ -37,7 +44,7 @@
         height: 100%;
         object-fit: cover;
         border-radius: 20px;
-        transition: all linear .1s;
+        transition: all linear 0.1s;
         &:hover {
             transform: scale(1.01);
         }
